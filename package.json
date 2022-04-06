@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/error-tools-id2msg",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return an error message corresponding to a provided two-character error identifier.",
   "license": "Apache-2.0",
   "author": {
