@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.id2msg;
+})();
 })();
 </script>
 ```
@@ -113,6 +115,7 @@ var v = id2msg( 'beep_boop' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var list;
 var v;
@@ -131,6 +134,7 @@ for ( i = 0; i < list.length; i++ ) {
     console.log( 'id: "%s". msg: "%s".', v, id2msg( v ) );
 }
 
+})();
 })();
 </script>
 </body>
