@@ -34,103 +34,25 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/error-tools-id2msg
-```
 
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
-
-<section class="usage">
-
-## Usage
-
-```javascript
-var id2msg = require( '@stdlib/error-tools-id2msg' );
-```
-
-#### id2msg( id )
-
-Returns an error message corresponding to a provided two-character error identifier.
-
-```javascript
-var v = id2msg( '8t' );
-// e.g., returns 'invalid option. `%s` option must be an array. Option: `%s`.'
-```
-
-If provided an unrecognized error identifier, the function returns `null`.
-
-```javascript
-var v = id2msg( 'beep_boop' );
-// returns null
-```
-
-</section>
-
-<!-- /.usage -->
 
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
-<section class="notes">
 
-</section>
-
-<!-- /.notes -->
 
 <!-- Package usage examples. -->
 
-<section class="examples">
 
-## Examples
-
-<!-- TODO: better example -->
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var id2msg = require( '@stdlib/error-tools-id2msg' );
-
-var list;
-var v;
-var i;
-
-list = [
-    '01',
-    '03',
-    '8t',
-    '0a',
-    '9W'
-];
-
-for ( i = 0; i < list.length; i++ ) {
-    v = list[ i ];
-    console.log( 'id: "%s". msg: "%s".', v, id2msg( v ) );
-}
-```
-
-</section>
-
-<!-- /.examples -->
 
 <!-- Section for describing a command-line interface. -->
 
-* * *
+
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -148,7 +70,7 @@ npm install -g @stdlib/error-tools-id2msg-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: stdlib-id2msg [options] <id>
@@ -175,7 +97,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ stdlib-id2msg '8t'
@@ -206,6 +128,11 @@ $ stdlib-id2msg '8t'
 
 <section class="related">
 
+## See Also
+
+-   <span class="package-name">[`@stdlib/error-tools-id2msg`][@stdlib/error-tools-id2msg]</span><span class="delimiter">: </span><span class="description">return an error message corresponding to a provided two-character error identifier.</span>
+
+
 </section>
 
 <!-- /.related -->
@@ -223,7 +150,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -246,8 +173,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/error-tools-id2msg.svg
-[npm-url]: https://npmjs.org/package/@stdlib/error-tools-id2msg
+[npm-image]: http://img.shields.io/npm/v/@stdlib/error-tools-id2msg-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/error-tools-id2msg-cli
 
 [test-image]: https://github.com/stdlib-js/error-tools-id2msg/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/error-tools-id2msg/actions/workflows/test.yml?query=branch:main
