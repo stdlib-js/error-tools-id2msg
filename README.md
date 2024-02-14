@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/error-tools-id2msg/tags). For example,
+
+```javascript
 import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@v0.2.0-deno/mod.js';
 ```
 
@@ -94,7 +99,7 @@ var v = id2msg( 'beep_boop' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@v0.2.0-deno/mod.js';
+import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@deno/mod.js';
 
 var list;
 var v;
