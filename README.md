@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@deno/mod.js';
+import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@v0.2.1-deno/mod.js';
 ```
 
 #### id2msg( id )
@@ -94,7 +94,7 @@ var v = id2msg( 'beep_boop' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@deno/mod.js';
+import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@v0.2.1-deno/mod.js';
 
 var list;
 var v;
