@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@esm/index.mjs';
+import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@v0.2.2-esm/index.mjs';
 ```
 
 #### id2msg( id )
@@ -99,7 +99,7 @@ var v = id2msg( 'beep_boop' );
 <body>
 <script type="module">
 
-import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@esm/index.mjs';
+import id2msg from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-id2msg@v0.2.2-esm/index.mjs';
 
 var list;
 var v;
